@@ -13,7 +13,7 @@
    `sudo tcpdump -i en8 icmp`
 3. ping 192.168.1.2
 4. set mac address to switch and reset the ping so its not in memory
-   `sudo arp -s 192.168.1.2 d8:b1:22:88:ad:ab`
+   `sudo arp -s 192.168.1.2 XX:XX:XX:XX:XX:XX`
 5. networksetup -listallhardwareports
 6. ifconfig enX
    - replace x with whatever port it is.
